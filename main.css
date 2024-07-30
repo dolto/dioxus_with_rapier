@@ -1,0 +1,22 @@
+.unit {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform-origin: center;
+  transform: translate(var(--posx), var(--posy)) translate(calc(calc(var(--sizex) / 2) * -1), calc(calc(var(--sizey) / 2) * -1)) rotate(var(--rot));
+  width: var(--sizex);
+  height: var(--sizey);
+}
+
+.rounded {
+  border: solid 0 transparent;
+  border-radius: 100%;
+}
+
+.ground {
+  background-color: black;
+}
+
+.ball {
+  background: red;
+}
